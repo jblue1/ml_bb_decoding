@@ -1,0 +1,17 @@
+name: qLDPC-decoding-cpu
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - numba
+  - pandas
+  - pytorch::pytorch
+  - pytest
+  - lightning
+  - pip
+  - pip:
+    - galois
+    - stim
+    - ldpc
+    - pymatching
