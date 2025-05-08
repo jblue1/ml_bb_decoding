@@ -23,5 +23,5 @@ from the root directory of the repository.
 
 Training models is performed with the `train.py` script.
 To see the available options for running this script, run `python train.py --help`.
-In order to evaluate a saved model, make sure to save the std out from the ~train.py~ script to a file.
-The name of this log file is used as an input for the ~eval_model.py~ script.
+In order to evaluate a saved model, make sure to save the std out from the `train.py` script to a file.
+The name of this log file is used as an input for the `eval_model.py` script.
